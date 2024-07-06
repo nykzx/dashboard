@@ -88,11 +88,6 @@ header img{
     overflow: hidden;
 }
 
-.sections:hover{
-    height: 150px;
-    transform-origin: 10px;
-}
-
 .sections img{
     width: 20px;
     height: 20px;

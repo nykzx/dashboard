@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <title>Dashboard - nykzx</title>
 </head>
@@ -17,10 +16,10 @@
             </header>
             
             <section class="information">
-                <div class="sections" id="profile">
+                <div class="sections" id="profile" onclick="openContainer('profile', 'profile-arrow')">
                     <header class="header-section">
                         <h2>Profile</h2>
-                    <img src="assets/images/icons/arrow-down.png">
+                        <img src="assets/images/icons/arrow-down.png" id="profile-arrow">
                     </header>
 
                     <div class="infos">
@@ -32,10 +31,10 @@
                     </div>
                 </div>
 
-                <div class="sections" id="social">
+                <div class="sections" id="social" onclick="openContainer('social', 'social-arrow')">
                     <header class="header-section">
                         <h2>Social Media</h2>
-                    <img src="assets/images/icons/arrow-down.png">
+                        <img src="assets/images/icons/arrow-down.png" id="social-arrow">
                     </header>
 
                     <div class="infos">
@@ -50,6 +49,8 @@
             </section>
         </section>
     </main>
+
+    <script src="script.js"></script>
 
     <script type="text/javascript" src="assets/functions/vanilla.js"></script>
 </body>
