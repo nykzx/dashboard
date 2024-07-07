@@ -120,3 +120,21 @@ p{
 p img{
     padding-right: 5px;
 }
+
+
+.project-love{
+    width: 100px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-project-love{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
